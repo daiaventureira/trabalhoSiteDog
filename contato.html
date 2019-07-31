@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+    <title>Index</title>
+    <link rel="stylesheet" href="css/contato.css">
+    <link rel="stylesheet" href="css/ficha.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+</head>
+<body class="tela">
+<header class="cabecalho">
+        <div class="aprender" > 
+            <h1 class="titulo-principal">Good dogtor</h1>
+            <nav class="menu-opcoes">
+                    <ul>
+                        <a href="index.html" class="menu-opcoes-link sobre">home</a>
+                         <a href="adocao.html" class="menu-opcoes-link adotando">adoção</a>
+                        <a href="saiba.html" class="menu-opcoes-link adotando">sobre</a>
+                        <a href="contato.html" class="menu-opcoes-link contato">contato</a>
+                    </ul>
+            </nav>        
+        </div>
+    </header> 
+    <main>
+      
+    <div class="form">
+           
+        <div class="envie-msg">
+    <form>
+            <legend class= "dados"> Obrigada por entrar em contato :)</legend>
+  
+            <div class="form-group">
+                    <label for="exampleInputName2">Nome</label>
+                    <input type="text" class="form-control" id="exampleInputName2" placeholder="Seu nome aqui" autofocus required pattern="[A-Za-z ']{4,}"  title="Preencha com no mínimo 4 letras, não use números">
+                  </div>
+            <div class="form-group">
+              <label for="exampleInputEmail1">Endereço de email</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+            </div>
+            <div class="form-group">
+              <label for="nbr">Telefone para contato (xx) xxxx-xxxx:</label>
+              <input type="tel" class="form-control" id="nbr" required name="tel" pattern="\([0-9]{2}\)[\s][0-9]{4}-[0-9]{4}" title="coloque o ddd entre parenteses e o numero com 8 digitos depois">
+            </div>
+
+            <label for="exampleInputEmail1"> Selecione o assunto:</label>
+            <select class="form-control">
+                    <option>Quero adotar</option>
+                    <option>Quero conhecer o abrigo</option>
+                    <option>Quero informaçoes sobre doação</option>
+                    <option>Quero informações sobre o uso das verbas arrecadadas</option>
+                    <option>Outro</option>
+                  </select>
+            <label>Nos deixe uma mensagem:</label>
+            <textarea  class="form-control" rows="8" required></textarea>
+        <div class="enviar"> <button type="submit" class="btn btn-default">Enviar</button></div>
+          </form>
+          </div>
+          </div>
+    </main>
+
+      <footer class="rodape-contato">
+              <div class="rod">&hearts;   Good Dogtor 2019</div>
+              <div class="saiba"><a href="saiba.html">Saiba mais</a></div>
+              <div class="fale-conosco"></a></div>
+              <div class="tire-suas-duvidas"><a href="contato.html">Tire suas duvidas</a></div>
+              <div class="adote-um-dog"><a href="adocao.html">Adote um dog</a></div>
+              <div class="endereco"><address>
+                Good Dogtor, <br>
+                Av Vicente Simoes, 1442, <br>
+                Pouso Alegre - MG,<br>
+                37564-000.<br>
+                Telefone: 2030-0000 ou 2003-0000. <br> 
+                Email: gooddogtor@gmail.com
+              </address></div>
+      </footer>
+        
+</body>
+</html>

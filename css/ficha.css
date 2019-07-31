@@ -1,0 +1,121 @@
+main{
+    height: 1000px;
+}
+
+.formulario{
+    left: 55%;
+    position: relative;
+    width: 600px;
+    height: 250px;
+    top: -750px;   
+    padding: 30px;
+    background-color:  rgb(248, 241, 207);
+}
+.formulario .sexo{
+    color: rgb(42, 47, 101);
+    font-size: 35px;
+    padding-bottom: 10px;
+}
+.formulario .femea{
+    color: rgb(255, 81, 85);
+}
+.formulario .temperamento{
+    color: rgb(42, 47, 101);
+    font-size: 35px; 
+    padding-bottom: 10px;
+}
+.formulario .carente{
+    color: rgb(255, 81, 85);
+}
+.formulario .idade{
+    color: rgb(42, 47, 101);
+    font-size: 35px;
+    padding-bottom: 10px;
+}
+.anos{
+    color: rgb(255, 81, 85);
+}
+.formulario .porte{
+    color: rgb(42, 47, 101);
+    font-size: 35px;
+  }
+
+.formulario .pequena{
+    color: rgb(255, 81, 85);
+}
+.sobre-ela{
+    left: 55%;
+    position: relative;
+    width: 600px;
+    height: 530px;
+    top: -750px;   
+    padding: 30px;
+    background-color:  rgb(248, 241, 207);
+}
+.sobre-ela p{
+    color: rgb(42, 47, 101);
+    font-size: 25px;
+    width: 40ch;
+    line-height: 1.5em;
+}
+.rodape-formulario{
+    position: relative;
+    top:100px;
+    height: 300px;
+    background-color:rgb(0,100,135);
+}
+.cachorrineo{
+    background-image: url("../imagens/doberman-macho-brincalhao-grande.jpg");
+    background-repeat: no-repeat;
+    width: 650px;
+    height:858px;
+    top: 110px; 
+    left: 40px;  
+    position: relative; 
+}
+.button{
+    position: relative;
+    top: -715px;
+    width: 600px;
+    left: 55%;
+    background-color: rgb(42, 47, 101);
+}
+#me-adote {
+    color:rgb(255, 81, 85);
+}
+.saiba a{
+    position: relative;
+    color: white;
+    font-size: 20px;
+    left: 80px;
+    top: 90px;
+    text-transform: uppercase; 
+}
+.tire-suas-duvidas a{
+    position: relative;
+    color: white;
+    font-size: 20px;
+    left: 580px;
+    top: 61px;
+    text-transform: uppercase;    
+}
+.adote-um-dog a{
+    position: relative;
+    color: white;
+    font-size: 20px;
+    left: 330px;
+    top: 33px;
+    text-transform: uppercase; 
+}
+.endereco{
+    position: relative;
+    width: 31ch;
+    height: 50px;
+    top:-50px;
+    left:1200px;
+}
+.endereco address{
+    color: white;
+    font-size: 15px;
+}
+

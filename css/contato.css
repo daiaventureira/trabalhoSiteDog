@@ -1,0 +1,65 @@
+.tela{
+    position: relative;
+    height: 1000px;
+}
+.rodape-contato{
+    position: relative;
+    top:-120px;
+    height: 300px;
+    background-color:rgb(0,100,135);
+}
+.form{
+    position: relative;
+    width: 500px;
+    height: 680px;
+    top: 100px;
+    padding: 50px;
+    margin: 0 auto;
+    border-radius: 30px;
+    border: 1px solid rgb(42, 47, 101);
+    background-color: rgb(248, 241, 207);
+}
+.envie-msg{
+    position: relative;
+    padding-top: 10px;
+}
+.enviar{
+    position: relative;
+    padding-top: 20px;
+}
+.saiba a{
+    position: relative;
+    color: white;
+    font-size: 20px;
+    left: 80px;
+    top: 90px;
+    text-transform: uppercase; 
+}
+
+.tire-suas-duvidas a{
+    position: relative;
+    color: white;
+    font-size: 20px;
+    left: 580px;
+    top: 61px;
+    text-transform: uppercase;    
+}
+.adote-um-dog a{
+    position: relative;
+    color: white;
+    font-size: 20px;
+    left: 330px;
+    top: 33px;
+    text-transform: uppercase; 
+}
+.endereco{
+    position: relative;
+    width: 31ch;
+    height: 50px;
+    top:-50px;
+    left:1200px;
+}
+.endereco address{
+    color: white;
+    font-size: 15px;
+}
