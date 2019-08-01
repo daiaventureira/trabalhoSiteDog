@@ -36,9 +36,11 @@
     margin: 0 auto;
     top: 350px;
 }
-.caixa{
+.engloba .escrito{
     position: relative; 
     height: 600px;
+    display: flex;
+    justify-content: center;
     background-color: rgb(255, 81, 85);
 }
 .item p{
@@ -58,7 +60,6 @@
 .sobre-nos{
     position: absolute;
     padding-top: 130px;
-    left:270px ;
     line-height: 3em;
    
 }
@@ -67,8 +68,6 @@
     width: 70ch;
     position: relative;
     color: rgb(255, 255, 255);
-    margin: 0 auto;
-    height: auto;
 }
 .engloba{
     position: relative;
@@ -91,7 +90,7 @@
     position: relative;
     color: rgb(255,255,255);
     top: 250px;
-    left: 1200px;
+    left: 80%;
     width: 18ch;
     font-size: 20px;
 }
@@ -124,7 +123,7 @@
     width: 31ch;
     height: 50px;
     top:-50px;
-    left:1200px;
+    left:80%;
 }
 .endereco address{
     color: white;
