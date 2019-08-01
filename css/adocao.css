@@ -42,9 +42,7 @@
     left: 285px;
 }
 .confuso{
-    width: 1440px;
     height:300px;
-    top: -20px;
     position: relative;
     background-image: url("../imagens/confused.jpg" );
 }

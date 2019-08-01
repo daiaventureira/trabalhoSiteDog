@@ -1,9 +1,8 @@
 .fundo{
-   
     height: 800px;
 }
 .aprender{
-    background-color:/*linear-gradient(rgb(15,0,47), rgb(1, 2, 59), rgb(15, 2, 75), rgb(17, 3, 82));*/rgb(255, 81,85);
+    background-color:rgb(255, 81,85);
     height: 90%;
     margin: 0 auto;
     padding: 1em;   

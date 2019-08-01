@@ -9,6 +9,7 @@
     opacity: 0.4;
     top:-1px;
     position: relative;  
+    margin: 0 auto;
 }
 .text{ 
     width:900px;
@@ -103,7 +104,7 @@
     width: 31ch;
     height: 50px;
     top:-50px;
-    left:1200px;
+    left:80%;
 }
 .endereco address{
     color: white;
