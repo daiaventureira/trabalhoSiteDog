@@ -33,23 +33,9 @@
     margin: 0 auto;
     top: 350px;
 }
-.box{
-    position: relative;
-    width: 950px;
-    height: 60px;
-    padding: 10px;
-    opacity: 0.2;
-    border-radius: 10px;
-    background-color: rgba(255, 255, 255, 0.712);
-    right:100px;
-    z-index: 1000;
-    left:70px;
-    top: 30px;
-}
 .caixa{
     position: relative;
     top:323px;
-    width: 1440px;
     height: 600px;
     background-color: rgb(255, 81, 85);
 }
@@ -82,9 +68,7 @@
 }
 .engloba{
     position: relative;
-    width: 1440px;
     height: 300px;
-  
 }
 .saiba-mais{
     font-size: 25px;
